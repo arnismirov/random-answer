@@ -14,5 +14,5 @@ function randomNumber(min, max) {
 
 button.addEventListener("click", () => {
     const index = randomNumber(0, probableAnswer.length - 1);
-    alert(probableAnswer[index]);
+    display.textContent = probableAnswer[index];
 })
